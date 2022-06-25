@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet"
+        href="/Users/manuyeremian/Library/Mobile Documents/com~apple~CloudDocs/Documents/ohmyfood/OMF/style.css" />
+    <title>ohmyfood</title>
+    <script src="https://kit.fontawesome.com/9cef6f608c.js" crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&family=Shrikhand&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <!-- SPINNER -->
+    <div id="spinner_zone">
+        <div class="spinner">
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+
+    <!-- LOGO -->
+    <div id="home">
+        <header>
+            <div class="logo">
+                <a><img src="images/logo/ohmyfood.png" alt="logo ohmyfood" id="logo" /></a>
+            </div>
+        </header>
+    </div>
+
+    <!-- LOCALISATION -->
+    <div class="localisation">
+        <div id="localisation_zone">
+            <div id="localisation_icon">
+                <i class="fa-solid fa-location-dot" id="location_icon"></i>
+            </div>
+            <div id="localisation_texte">
+                <p>Paris, Belleville</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- RESERVATION -->
+    <div id="réservation">
+        <div id="réservation_titre">
+            <p>Réservez le menu qui vous convient</p>
+        </div>
+        <div id="réservation_soustitre">
+            <p>Découvrez des restaurants d'exception, séléctionnés par nos soins.</p>
+        </div>
+        <div id="bouton_zone">
+            <a href="#restaurants">
+                <p class="bouton_explorer">Explorer nos restaurants</p>
+                <!-- <input type="button" value="Explorer nos restaurants" > -->
+            </a>
+        </div>
+    </div>
+
+    <!-- FONCTIONNEMENT -->
+    <div id="fonctionnement">
+        <div id="fonctionnement_zone">
+            <div id="fonctionnement_titre_zone">
+                <p class="titre">Fonctionnement</p>
+            </div>
+
+            <div id="fonctionnement_étapes_zone">
+                <!-- STEP 1 -->
+                <div class="fonctionnement_étape">
+                    <div class="pastille_numéro">
+                        <p>1</p>
+                    </div>
+                    <div class="encart">
+                        <div class="encart_contenu">
+                            <i class="fa-solid fa-mobile-screen-button"></i>
+                            <p class="fonctionnement_encart_texte">Choisissez un restaurant</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- STEP 2 -->
+                <div class="fonctionnement_étape">
+                    <div class="pastille_numéro">
+                        <p>2</p>
+                    </div>
+                    <div class="encart">
+                        <div class="encart_contenu">
+                            <i class="fa-solid fa-list"></i>
+                            <p class="fonctionnement_encart_texte">Composez votre menu</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- STEP 3 -->
+                <div class="fonctionnement_étape">
+                    <div class="pastille_numéro">
+                        <p>3</p>
+                    </div>
+                    <div class="encart">
+                        <div class="encart_contenu">
+                            <i class="fa-solid fa-store"></i>
+                            <p class="fonctionnement_encart_texte">Dégustez au restaurant</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- RESTAURANTS -->
+    <div id="restaurants">
+        <div class="restaurants_zone">
+            <div id="restaurant_titre">
+                <h1>Restaurants</h1>
+            </div>
+            <div class="encarts_zone">
+                <div class="break_1">
+                    <a
+                        href="file:///Users/manuyeremian/Library/Mobile%20Documents/com~apple~CloudDocs/Documents/ohmyfood/OMF/menu_palette.html">
+                        <div class="restaurant_encart">
+                            <div class="encart_haut">
+                                <div class="restaurant_photo rp1"></div>
+
+                                <span class="nouveau">Nouveau</span>
+                            </div>
+
+                            <div class="encart_bas">
+                                <div class="encart_texte">
+                                    <p class="encart_texte_l1">La palette du goût</p>
+                                    <p class="encart_texte_l2">Ménilmontant</p>
+                                </div>
+                                <div class='like'>
+                                    <i class="fa-regular fa-heart unliked"></i>
+                                    <i class="fa-solid fa-heart liked"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a
+                        href="file:///Users/manuyeremian/Library/Mobile%20Documents/com~apple~CloudDocs/Documents/ohmyfood/OMF/menu_enchante%CC%81e.html">
+                        <div class="restaurant_encart">
+                            <div class="encart_haut">
+                                <div class="restaurant_photo rp2"></div>
+
+                                <span class="nouveau">Nouveau</span>
+                            </div>
+
+                            <div class="encart_bas">
+                                <div class="encart_texte">
+                                    <p class="encart_texte_l1">La note enchantée</p>
+                                    <p class="encart_texte_l2">Charonne</p>
+                                </div>
+                                <div class='like'>
+                                    <i class="fa-regular fa-heart unliked"></i>
+                                    <i class="fa-solid fa-heart liked"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="break"></div>
+
+                <div class="break_2">
+                    <a
+                        href="file:///Users/manuyeremian/Library/Mobile%20Documents/com~apple~CloudDocs/Documents/ohmyfood/OMF/menu_française.html">
+                        <div class="restaurant_encart">
+                            <div class="encart_haut">
+                                <div class="restaurant_photo rp3"></div>
+                            </div>
+
+                            <div class="encart_bas">
+                                <div class="encart_texte">
+                                    <p class="encart_texte_l1">À la française</p>
+                                    <p class="encart_texte_l2">Cité Rouge</p>
+                                </div>
+                                <div class='like'>
+                                    <i class="fa-regular fa-heart unliked"></i>
+                                    <i class="fa-solid fa-heart liked"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a
+                        href="file:///Users/manuyeremian/Library/Mobile%20Documents/com~apple~CloudDocs/Documents/ohmyfood/OMF/menu_de%CC%81lice.html">
+                        <div class="restaurant_encart">
+                            <div class="encart_haut">
+                                <div class="restaurant_photo rp4"></div>
+                            </div>
+
+                            <div class="encart_bas">
+                                <div class="encart_texte">
+                                    <p class="encart_texte_l1">Le délice des sens</p>
+                                    <p class="encart_texte_l2">Folie-Méricourt</p>
+                                </div>
+                                <div class='like'>
+                                    <i class="fa-regular fa-heart unliked"></i>
+                                    <i class="fa-solid fa-heart liked"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- <a href="https://www.backmarket.fr/fr-fr">
+        <p id="easterEgg">Besoin d'un nouveau téléphone ?</p>
+    </a> -->
+
+    <div id="easterEgg">
+        <a href="https://www.backmarket.fr/fr-fr">
+            <p class="lineUp">Besoin d'un nouveau téléphone ?</p>
+        </a>
+    </div>
+
+    <!-- FOOTER -->
+    <footer>
+        <div id="footer">
+            <div id="footer_logo">
+                <a href="#"><img src="images/logo/ohmyfood_blanc.png" alt="logo ohmyfood" id="logo_blanc" /></a>
+            </div>
+            <div class="proposer">
+                <i class="fa-solid fa-utensils"></i>
+                <div class="footer_texte">
+                    <p class="link">Proposer un restaurant</p>
+                </div>
+            </div>
+            <div class="partenaire">
+                <i class="fa-solid fa-handshake-angle"></i>
+                <div class="footer_texte">
+                    <p class="link">Devenir partenaire</p>
+                </div>
+            </div>
+            <p class="link">Mentions légales</p>
+            <p><a href="mailto:contact@ohmyfood.fr">Contact</a></p>
+        </div>
+    </footer>
+</body>
+
+</html>
